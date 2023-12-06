@@ -1,0 +1,87 @@
+body{
+    background-image: url(/img/fondo-body.jpg);
+    margin: 0;
+}
+header{
+    background-image: url(/img/fondo-texto-header.png);
+    background-size: 1200px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.Header{
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: Boton;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+}
+button{
+    background-color: rgba(0, 0, 0, 0.525);
+    
+}
+@font-face {
+    font-family: Boton;
+    src: url(/fuentes/fuente-botones.otf);
+}
+@font-face {
+    font-family: Parrafo;
+    src: url(/fuentes/fuente-parrafos.otf);
+}
+
+.container {
+    display: flex;
+    
+}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    margin-right: 20px;
+    font-family: Boton;
+    padding: 25px;
+    color: #000000;
+    text-align: center;
+    background-color: rgb(173, 173, 146);
+    
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+.parrafo-ejemplos{
+    font-family: Parrafo;
+    font-size: 25px;
+    margin: 40px;
+}
+.imagen2-ejemplos{
+    margin-top: 40px;
+}
+.imagen3-ejemplos{
+    margin-top: 40px;
+}
+.noticias{
+background-color: #514c4c;
+
+}
+a{
+    text-decoration: none;
+    color:#000000;
+    font-family: Boton;
+}
